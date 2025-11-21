@@ -15,3 +15,23 @@ my_str += "&stop"
 print(my_str)
 my_str_multiplied = my_str * 5
 print(my_str_multiplied)
+
+
+path = "C:\\Users\\MainAdmin\\Desktop\\programs"
+
+print(path)
+
+path += "\\game.exe"
+
+print(path)
+
+path = "C:\\Users\\MainAdmin\\Desktop\\files"
+
+ "\picture.png"
+path += "\\picture.png"
+
+print(path)
+
+path = "C:\\James\\city simulator" 
+path = path * 2
+print("Error path:", path)
