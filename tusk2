@@ -1,18 +1,26 @@
-path = "C:\\Users\\MainAdmin\\Desktop\\programs"
+bytes_input = int(input("введите количество байт:"))
+bits_output =bytes_input * 8
+print(f"{bytes_input} байт = {bits_output} бит")
 
-print(path)
 
-path += "\\game.exe"
+print("электронная книга по праграммированию на английском состоит из 5 страниц"\n"
+"В среднем на странице C по N символов.\n"
+"Используется кодировка UTF-8. Определите обьем текстогого файла в килобайтах,)
+s = int(input("введите количество страниц:"))
+c = int(input("введите количествострок на странице"))
+n = int(input("введите количество символов на странице"))
+print (f"\Электронная книга по программированию на английском языке состоит ИЗ {s} страниц.")
 
-print(path)
+print (f"B среднем на странице {с} строк по {n} символов.")
 
-path = "C:\\Users\\MainAdmin\\Desktop\\files"
+print ("Используется кодировка UTF-8. Определите объём текстового файла в килобайтах. \n")
 
- "\picture.png"
-path += "\\picture.png"
+общее количество символов = 5**n
 
-print(path)
+размер файла в килобайтах = общее количество символов / 1024
 
-path = "C:\\James\\city simulator" 
-path = path * 2
-print("Error path:", path)
+print(f"1) {s} = {c} = {n} = {total symbols} — всего символов в книге.")
+
+print (f"2) {total symbols) + 1024 = {file_size kb) - объём файла в килобайтах.")
+
+print(f"\nOrBeT: {file_size_kb} KoaT.")
