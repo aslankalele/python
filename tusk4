@@ -78,3 +78,54 @@ if side1 == side2:
 else:
     print("Прямоугольник")
     print("Площадь:", side1 * side2)
+
+
+a = float(input("Введите первое число: "))
+b = float(input("Введите второе число: "))
+
+if a > b:
+    print(a ** b)
+elif b > a:
+    print(b ** a)
+else:
+    print(a + b)new_message = "Hello! How are you?"
+user_message = input("Введите ответ на сообщение: ")
+
+if new_message[0] == user_message[0]:
+    print(True)
+else:
+    print(False)a = float(input("Введите длину первого отрезка: "))
+b = float(input("Введите длину второго отрезка: "))
+
+if a > b:
+    print(f"Первый отрезок длиннее на {a - b}")
+elif b > a:
+    print(f"Второй отрезок длиннее на {b - a}")
+else:
+    print("Отрезки равны")s = input("Введите строку: ")
+
+if len(s) > 0 and s[0] == s[-1]:
+    print(True)
+else:
+    print(False)
+
+side1 = float(input("Введите первую сторону: "))
+side2 = float(input("Введите вторую сторону: "))
+
+if side1 == side2:
+    print("Квадрат")
+    print("Площадь:", side1 * side2)
+else:
+    print("Прямоугольник")
+    print("Площадь:", side1 * side2)print("Как твои дела?")
+answer = input().lower()
+
+good_responses = ["хорошо", "нормально", "отлично"]
+bad_responses = ["плохо", "не хорошо", "..."]
+
+if answer in good_responses:
+    print("😊")
+elif answer in bad_responses:
+    print("😊")  
+else:
+    print("😊")
